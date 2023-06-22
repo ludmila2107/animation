@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica', Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 5px;
+  background-color: rgb(209, 228, 230);
+}
+
+.collapse {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.collapse-btn {
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  color: #fff;
+  background-color: rgb(41, 90, 253);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.collapse-btn:hover {
+  background-color: rgb(212, 32, 203);
+}
+
+.collapse-text__wrap {
+  height: 0;
+  margin-top: 20px;
+  transition: height 1s ease;
+  overflow: hidden;
+}
+
+.collapse-text {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid rgb(185, 185, 185);
+  border-radius: 5px;
+}
